@@ -15,8 +15,7 @@
     }
   },
   "require": {
-    "php": "^8.0",
-    "your-vendor/import-commands": "^1.0@dev"
+    "php": "^8.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
