@@ -1,0 +1,21 @@
+{
+  "name": "your-vendor/import-commands",
+  "description": "A Laravel package for generating and running import commands as migrations.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Danielian Arman",
+      "email": "adanielian@saber.games"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\ImportCommands\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*"
+  }
+}
